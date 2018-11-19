@@ -1,0 +1,617 @@
+{
+  "places": [
+    {
+      "place": {
+        "id": 1,
+        "txtId": "bigbs",
+        "placeType": "building",
+        "fullName": "Big Bet Shemesh",
+        "msg": "Big BS",
+        "beacons": [
+          {
+            "id": 11,
+            "txtId": "maingate",
+            "fullName": "Main Gate (South)",
+            "ktid": "uWWf",
+            "uuid": "",
+            "major": 28999,
+            "minor": 64381
+          },
+          {
+            "id": 12,
+            "txtId": "toilets1a",
+            "fullName": "Accesible toilets",
+            "ktid": "WNed",
+            "uuid": "",
+            "major": 57356,
+            "minor": 52537
+          },
+          {
+            "id": 13,
+            "txtId": "test1",
+            "fullName": "Test One",
+            "ktid": "Z055",
+            "uuid": "",
+            "major": 38979,
+            "minor": 49687
+          },
+          {
+            "id": 14,
+            "txtId": "test2",
+            "fullName": "Test Two",
+            "ktid": "V36R",
+            "uuid": "",
+            "major": 55462,
+            "minor": 52576
+          }
+        ],
+        "nearby": [
+          {
+            "beacon": {
+              "id": 11,
+              "txtId": "mainGate",
+              "ktid": "uWWf",
+              "major": 28999,
+              "minor": 64381,
+              "fullName": "Main Gate (South)",
+              "msg": ["You are at the main gate\n", "There is an ATM outside"],
+              "points": [
+                {
+                  "point": {
+                    "id": 12,
+                    "txtId": "toilets1a",
+                    "title": "Accessible toilets 1S",
+                    "icon": "toilet",
+                    "direction": 125,
+                    "instructions": ["Call 051-222-333 for assistance"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 13,
+                    "txtId": "elevators4a",
+                    "title": "Elevators 4a",
+                    "icon": "elevator",
+                    "direction": 343,
+                    "instructions": ["To all floors\n", "You are on floor 1"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 14,
+                    "txtId": "superpharm",
+                    "title": "Superpharm",
+                    "icon": "elevator",
+                    "direction": 343,
+                    "instructions": [
+                      "50 meters north\n",
+                      "Entrance to the right"
+                    ]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 15,
+                    "txtId": "info",
+                    "title": "Information",
+                    "icon": "information",
+                    "direction": 343,
+                    "instructions": [
+                      "117 meters north\n",
+                      "Information stand in middle"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "beacon": {
+              "id": 12,
+              "txtId": "toilets1a",
+              "ktid": "WNed",
+              "major": 57356,
+              "minor": 52537,
+              "fullName": "Accessible toilets 1S",
+              "msg": "Toilets (south) on floor 1",
+              "points": [
+                {
+                  "point": {
+                    "id": 11,
+                    "txtId": "sidegate",
+                    "title": "Main Gate (South)",
+                    "icon": "gate",
+                    "direction": 32,
+                    "instructions": ["Follow the smell of the smoke"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 13,
+                    "txtId": "Elevators14b",
+                    "title": "Elevators 14b",
+                    "icon": "elevator",
+                    "direction": 311,
+                    "instructions": [
+                      "Only 2 elevators in this entrance\n",
+                      "Does not reach 3rd floor"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "beacon": {
+              "id": 13,
+              "txtId": "test1",
+              "ktid": "Z055",
+              "major": 38979,
+              "minor": 49687,
+              "fullName": "Test One",
+              "msg": ["lorem1 impsum1 bla bla 1", "lorem impsum bla bla 2"],
+              "points": [
+                {
+                  "point": {
+                    "id": 12,
+                    "txtId": "toilets1a",
+                    "title": "Accessible toilets 1S",
+                    "icon": "toilet",
+                    "direction": 125,
+                    "instructions": ["Call 051-222-333 for assistance"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 15,
+                    "txtId": "rimon",
+                    "title": "Rimon Cafe",
+                    "icon": "food",
+                    "direction": 343,
+                    "instructions": ["Walk 30 meters north\n", "The door is to the right"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 16,
+                    "txtId": "electro",
+                    "title": "Nissim Electronics",
+                    "icon": "fix",
+                    "direction": 343,
+                    "instructions": [
+                      "50 meters north\n",
+                      "Entrance to the left"
+                    ]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 17,
+                    "txtId": "info",
+                    "title": "Information",
+                    "icon": "information",
+                    "direction": 343,
+                    "instructions": [
+                      "117 meters north\n",
+                      "Information stand in middle"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "beacon": {
+              "id": 14,
+              "txtId": "test2",
+              "ktid": "V36R",
+              "major": 55462,
+              "minor": 52576,
+              "fullName": "Test two",
+              "msg": ["You are at the test two\n", "There is something outside"],
+              "points": [
+                {
+                  "point": {
+                    "id": 12,
+                    "txtId": "toilets1a",
+                    "title": "Accessible toilets 1S",
+                    "icon": "toilet",
+                    "direction": 125,
+                    "instructions": ["Call 051-222-333 for assistance"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 13,
+                    "txtId": "elevators4a",
+                    "title": "Elevators 4a",
+                    "icon": "elevator",
+                    "direction": 343,
+                    "instructions": ["To all floors\n", "You are on floor 1"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 14,
+                    "txtId": "superpharm",
+                    "title": "Superpharm",
+                    "icon": "elevator",
+                    "direction": 343,
+                    "instructions": [
+                      "50 meters north\n",
+                      "Entrance to the right"
+                    ]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 15,
+                    "txtId": "info",
+                    "title": "Information",
+                    "icon": "information",
+                    "direction": 343,
+                    "instructions": [
+                      "117 meters north\n",
+                      "Information stand in middle"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "thisWay": [
+          {
+            "beacon": {
+              "id": 11,
+              "txtId": "mainGate",
+              "ktid": "uWWf",
+              "fullName": "Main Gate (South)",
+              "msg": "Main gate",
+              "points": [
+                {
+                  "point": {
+                    "id": 12,
+                    "txtId": "Superpharm",
+                    "title": "Superpharm",
+                    "icon": "pharmacy",
+                    "direction": 125,
+                    "instructions": [
+                      "10 meters ahead\n",
+                      "Entrance is 7 meters to your right."
+                    ]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 13,
+                    "txtId": "stairs12",
+                    "title": "North stairs",
+                    "icon": "stairs",
+                    "direction": 150,
+                    "instructions": ["Lorem ipsum 1"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 14,
+                    "txtId": "toilets33",
+                    "title": "North toilets 33",
+                    "icon": "men",
+                    "direction": 150,
+                    "instructions": [
+                      "No accssiblity. \nUse 2nd floor toilets for this"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "beacon": {
+              "id": 12,
+              "txtId": "toilets",
+              "ktid": "WNed",
+              "major": 57356,
+              "minor": 52537,
+              "fullName": "Toilets south flr 1",
+              "msg": "Toilets f1.S",
+              "points": [
+                {
+                  "point": {
+                    "id": 11,
+                    "txtId": "maingate",
+                    "title": "The main gate (south)",
+                    "icon": "gate",
+                    "direction": 32,
+                    "instructions": ["bli bli bli"]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 13,
+                    "txtId": "Elevators 57",
+                    "title": "Elevators Middle of Building",
+                    "icon": "elevator",
+                    "direction": 311,
+                    "instructions": "4 elevators. \nTwo to your right \nand Two to your left "
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "inPlace": [
+          {
+            "point": {
+              "id": 1,
+              "floor": 1,
+              "title": "Amanda matchmaker",
+              "subtitle": "office",
+              "content": [
+                "2nd floor \nNear elevator C3 (south)\n",
+                "Staff specializes in disabilities\n",
+                "and we are hiring."
+              ]
+            }
+          },
+          {
+            "point": {
+              "id": 2,
+              "floor": 1,
+              "title": "Toilets",
+              "subtitle": "for disabled",
+              "content": [
+                "1st floor \nNear elevator C3 (south)\n",
+                "Third door to right\n"
+              ]
+            }
+          },
+          {
+            "point": {
+              "id": 3,
+              "floor": 2,
+              "title": "Brake out room",
+              "subtitle": "activity place",
+              "content": ["2nd floor \nNear elevator C3 (south)"]
+            }
+          },
+          {
+            "point": {
+              "id": 3,
+              "floor": 2,
+              "title": "Cazino",
+              "subtitle": "activity place",
+              "content": ["Lorem impsum\n lech teda im yesh teshuva"]
+            }
+          }
+        ],
+        "contactPhone": "029919366",
+        "exits": [
+          {
+            "beacon": {
+              "id": 11,
+              "instruction": "Follow the hall to the north 20 steps and then to the left, out of the building"
+            }
+          },
+          {
+            "beacon": {
+              "id": 12,
+              "instruction": "Follow the hall to the south 15 steps. The exit is to the right"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "place": {
+        "id": 2,
+        "txtId": "hosp",
+        "placeType": "building",
+        "fullName": "United Israel Hospitals",
+        "msg": "iHospital",
+        "beacons": [
+          {
+            "id": 21,
+            "txtId": "maingate",
+            "fullName": "Main Gate (South)",
+            "ktid": "aaaa",
+            "uuid": "",
+            "major": 11111,
+            "minor": 11111
+          },
+          {
+            "id": 22,
+            "txtId": "cardio",
+            "fullName": "Emergency Cardiology",
+            "ktid": "bbbb",
+            "uuid": "",
+            "major": 22222,
+            "minor": 22222
+          },
+          {
+            "id": 23,
+            "txtId": "stairs35",
+            "fullName": "Emergency stairway (south)",
+            "ktid": "cccc",
+            "uuid": "",
+            "major": 33333,
+            "minor": 33333
+          },
+          {
+            "id": 24,
+            "txtId": "cazino",
+            "fullName": "Cazino",
+            "ktid": "dddd",
+            "uuid": "",
+            "major": 44444,
+            "minor": 44444
+          }
+        ],
+        "nearby": [
+          {
+            "beacon": {
+              "id": 21,
+              "txtId": "mainGate",
+              "ktid": "aaaa",
+              "major": 11111,
+              "minor": 11111,
+              "fullName": "Main Gate (West)",
+              "msg": ["Gate (new)"],
+              "points": [
+                {
+                  "point": {
+                    "id": 22,
+                    "txtId": "Cardio",
+                    "title": "Emergency Cardiology",
+                    "icon": "pharmacy",
+                    "direction": 125,
+                    "instructions": [
+                      "10 meters ahead\n",
+                      "Entrance is 2 meters to your right."
+                    ]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 23,
+                    "txtId": "stairs35",
+                    "title": "Emergency stairway (south)",
+                    "icon": "stairs (south)",
+                    "direction": 150,
+                    "instructions": ["Lorem ipsum 2"]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "thisWay": [
+          {
+            "beacon": {
+              "id": 21,
+              "txtId": "mainGate",
+              "ktid": "aaaaa",
+              "major": 11111,
+              "minor": 11111,
+              "fullName": "Main Gate (West)",
+              "msg": "Gate (new)",
+              "points": [
+                {
+                  "point": {
+                    "id": 22,
+                    "txtId": "Cardio",
+                    "title": "Emergency Cardiology",
+                    "icon": "pharmacy",
+                    "direction": 125,
+                    "instructions": [
+                      "10 meters ahead\n",
+                      "Entrance is 2 meters to your right."
+                    ]
+                  }
+                },
+                {
+                  "point": {
+                    "id": 23,
+                    "txtId": "stairs35",
+                    "title": "Emergency stairway (south)",
+                    "icon": "stairs (south)",
+                    "direction": 150,
+                    "instructions": ["Lorem ipsum 2"]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "inPlace": [
+          {
+            "point": {
+              "id": 21,
+              "floor": 1,
+              "title": "Bla bla",
+              "subtitle": "office",
+              "content": [
+                "Lorem \nNear ipsum\n",
+                "Quaga\n",
+                "and we are hiring."
+              ]
+            }
+          },
+          {
+            "point": {
+              "id": 22,
+              "floor": 1,
+              "title": "Toilets",
+              "subtitle": "for disabled",
+              "content": [
+                "1st floor \nNear elevator C3 (south)\n",
+                "Third door to right\n"
+              ]
+            }
+          },
+          {
+            "point": {
+              "id": 23,
+              "floor": 2,
+              "title": "Brake out room",
+              "subtitle": "activity place",
+              "content": ["2nd floor \nNear elevator C3 (south)"]
+            }
+          },
+          {
+            "point": {
+              "id": 24,
+              "floor": 2,
+              "title": "Cazino",
+              "subtitle": "activity place",
+              "content": ["Lorem impsum\n lech teda im yesh teshuva"]
+            }
+          }
+        ],
+        "contactPhone": "039993333",
+        "exits": [
+          {
+            "beacon": {
+              "id": 21,
+              "instruction": "The exit is 40 steps directly south"
+            }
+          },
+          {
+            "beacon": {
+              "id": 22,
+              "instruction": "The exit is 45 steps down the corridor west"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "place": {
+        "id": 3,
+        "txtId": "tbd",
+        "placeType": "building",
+        "fullName": "tbd",
+        "msg": "tbd",
+        "nearby": [{}],
+        "thisWay": [{}],
+        "inPlace": [{}, {}, {}],
+        "contactPhone": "039993333",
+        "exits": [
+          {
+            "beacon": {
+              "id": 11,
+              "instruction": "The exit is 40 steps directly south"
+            }
+          },
+          {
+            "beacon": {
+              "id": 22,
+              "instruction": "The exit is 45 steps down the corridor west"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
